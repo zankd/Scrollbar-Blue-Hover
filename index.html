@@ -4,19 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Scrollbar Example</title>
-  <link rel="stylesheet" href="scrollb.css">
+  <link rel="stylesheet" href="scrollb.css"> 
   <style>
-    .content {
-      height: 200px; /* Adjust the height as per your requirements */
-      overflow-y: scroll;
+    .scrollable-container {
+      height: 300px; /* Adjust the height as per your requirements */
+      width: 300px; /* Adjust the width as per your requirements */
+      overflow: auto;
+      margin: 0 auto;
+    }
+    .scrollable-content {
+      height: 500px; /* Adjust the height to make it larger than the container */
+      width: 100%;
+      background-color: #f2f2f2;
+      padding: 10px;
     }
   </style>
 </head>
 <body>
   <h1>Scrollbar Example</h1>
-  <div class="content">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique, neque vel interdum consequat, tellus neque condimentum metus, id facilisis arcu velit sit amet lorem.</p>
-    <!-- Add more content here to make it scrollable -->
+  <div class="scrollable-container">
+    <div class="scrollable-content">
+      <!-- Add your scrollable content here -->
+      <p>This is an example of a scrollable content area in the middle of the page. You can add more text or other elements to demonstrate the scrollbar functionality.</p>
+    </div>
   </div>
 </body>
 </html>
