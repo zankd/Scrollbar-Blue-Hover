@@ -20,21 +20,6 @@
   background-clip: content-box;
   border: solid 3.8px transparent;
 }
-section::-webkit-scrollbar-button:vertical:start:decrement {
-  background: transparent url(https://elcssar.com/ejemplos/arrow_up.png) no-repeat center center;
-}
-section::-webkit-scrollbar-button:vertical:end:decrement {
-  background: transparent url(https://elcssar.com/ejemplos/arrow_up.png) no-repeat center center;
-}
-section::-webkit-scrollbar-button:vertical:end:increment {
-  background: transparent url(https://elcssar.com/ejemplos/arrow_down.png) no-repeat center center;
-}
-section::-webkit-scrollbar-button:horizontal:decrement {
-  background: transparent url(https://elcssar.com/ejemplos/arrow_left.png) no-repeat center center;
-}
-::-webkit-scrollbar-button:horizontal:increment {
-  background: transparent url(https://elcssar.com/ejemplos/arrow_right.png) no-repeat center center;
-}
 
 ::-webkit-scrollbar-thumb  {
   height: 10px;
